@@ -7,7 +7,7 @@ package BMI;
 
 /**
  *
- * @author user
+ * @author Aulia Febianca Dhevysistina
  */
 public class BMIBeraksi {
 
