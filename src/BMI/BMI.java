@@ -13,21 +13,27 @@ import java.util.Scanner;
  */
 public class BMI {
  Scanner scan = new Scanner(System.in);
+ String opening;
  double tinggiBadan;
  double beratBadan;
  double hasil;
+
+ public BMI (){
+     opening = "Selamat datang di kalkulator BMI ^^";
+ }
  
- public BMI(){}
- 
-public void dataBMI (){
+void dataBMI (){
+    System.out.println(opening);
+    System.out.println("======================================");
     System.out.print("Masukkan tinggi badan anda (Cm) : ");
     tinggiBadan = scan.nextDouble();
     System.out.print("Masukkan berat badan anda (Kg) : ");
     beratBadan = scan.nextDouble();
+    System.out.println("======================================");
 }
-public void hitungBMI (){
+void hitungBMI (){
     hasil = beratBadan/((tinggiBadan/100)*(tinggiBadan/100));
-    System.out.println("Hasil BMI anda adalah "+Math.nextUp(hasil));
+    System.out.println("Hasil BMI anda adalah "+hasil);
     if (hasil < 18.5){
         System.out.println("Kategori BMI anda adalah Kekurangan Berat Badan");
     } else if (hasil >=18.5 && hasil < 24.9){
