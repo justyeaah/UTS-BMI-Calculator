@@ -15,7 +15,7 @@ public class BMIBeraksi {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        BMI calculate = new BMI();
+       BMI calculate = new BMI();
        calculate.dataBMI();
        calculate.hitungBMI();
     }
