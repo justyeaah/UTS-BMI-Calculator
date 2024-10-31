@@ -8,4 +8,5 @@ Kelas : 1A
 
 Prodi : Sistem Informasi
 
-![Screenshot 2024-10-30 223013](https://github.com/user-attachments/assets/d173aa79-16a2-4d57-bf24-196a76fd6d17)
+
+![Screenshot 2024-10-31 190312](https://github.com/user-attachments/assets/f41db5bb-aac9-43a1-ae56-1f54a54ec1b5)
