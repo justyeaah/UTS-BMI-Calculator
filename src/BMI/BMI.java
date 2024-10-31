@@ -22,7 +22,7 @@ public class BMI {
      opening = "Selamat datang di kalkulator BMI ^^";
  }
  
-void dataBMI (){
+public void dataBMI (){
     System.out.println(opening);
     System.out.println("======================================");
     System.out.print("Masukkan tinggi badan anda (Cm) : ");
@@ -31,7 +31,7 @@ void dataBMI (){
     beratBadan = scan.nextDouble();
     System.out.println("======================================");
 }
-void hitungBMI (){
+public void hitungBMI (){
     hasil = beratBadan/((tinggiBadan/100)*(tinggiBadan/100));
     System.out.println("Hasil BMI anda adalah "+hasil);
     if (hasil < 18.5){
